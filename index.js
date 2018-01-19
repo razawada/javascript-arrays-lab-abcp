@@ -1,5 +1,7 @@
 const app = "I don't do much."
 
+var kittens = ["Milo", "Otis", "Garfield"];
+
 function destructivelyAppendKitten(name) {
   kittens.push(name);
   return kittens;
@@ -27,5 +29,3 @@ function appendKitten(name) {
 function prependKitten(name) {
   return [name, ...kittens]
 }
-
-
